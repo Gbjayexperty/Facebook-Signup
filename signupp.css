@@ -1,0 +1,200 @@
+body {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    background-color: rgb(237, 240, 245);
+    height: 100vh;
+}
+
+.parent-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Horizontally centers the child */
+    align-items: center; /* Vertically centers the child */
+    margin: 10% 0;
+    gap: 30px;
+    
+}
+
+.facebook-logo{
+    font-size: 60px;
+    color: blue;
+}
+
+.parent-form {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 480px;
+    background-color: #fff;
+    border-radius: 10px;   
+}
+
+
+.first-div {
+    display: grid;
+    justify-content: center;
+}
+
+.hr {
+    color: #faf7f7ce;
+
+}
+
+.first-paragraph {
+    display: flex;
+    justify-self: center;
+    align-self: flex-start;
+    margin-top: -20px;
+    font-size: 16px;
+    color: gray;
+}
+
+.name {
+    display: flex;
+    gap: 7px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.same-input {
+    
+        flex: 1; /* Makes inputs take equal width */
+        padding: 10px; /* Adds padding inside the input fields */
+        font-size: 16px; /* Sets the font size */
+        border: 1px solid #ccc; /* Optional: border styling */
+        border-radius: 5px; /* Optional: rounded corners */
+      }
+
+/* .first-name {
+    display: flex;
+    width: 200px;
+    height: 35px;
+    font-size: 16px;
+    gap: 5px; */
+
+    
+    
+.second-head {
+    font-size: 30px;
+
+}
+
+.birth-date {
+    display: flex;
+    gap: 7px;
+    margin-left: 10px;
+    margin-right: 10px;
+       
+}
+
+.class-dob {
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin-bottom: 5px;
+    color: #535252;
+
+}
+
+.same-select {
+    flex: 1; /* Makes inputs take equal width */
+    padding: 10px; /* Adds padding inside the input fields */
+    font-size: 16px; /* Sets the font size */
+    border: 1px solid #ccc; /* Optional: border styling */
+    border-radius: 5px;   
+}
+
+.gender-label {
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin-bottom: 5px;
+    color: #535252;
+}
+
+.gender-class {
+    display: flex;
+    gap: 7px;
+    margin-left: 10px;
+    margin-right: 10px;  
+}
+
+.same-radio {
+    flex: 1; 
+    padding: 10px; 
+    font-size: 16px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px;   
+}
+
+.just-radio {
+    margin-left: 50px;
+}
+
+
+
+
+.contact {
+    display: flex;
+    gap: 7px;
+    margin-left: 10px;
+    margin-right: 10px;  
+}
+
+.same-input2 {
+    flex: 1; 
+    padding: 10px; 
+    font-size: 16px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px;   
+    margin-top: 10px;
+}
+
+.ending-paragraph {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 12px;
+    color: #535252;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.last-button {
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    width: 185px; /* Adjust the width as needed */
+      height: 38px; /* Optional: Adjust height */
+      background-color: green;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      align-items: center;
+      font-size: 18px;
+      margin-bottom: 10px;
+      
+
+      
+}
+@media screen and (max-width: 600px) {
+    .parent-form{
+        width: 400px;
+        height: 100vh;
+    }
+   
+    .same-input{
+        width: 100%;
+    }
+    .contact{
+        display: block;
+        
+    }
+    .same-input2{
+       width: 358px;
+    }
+    .ending-paragraph{
+        display: none;
+    }
+}
+    
+    
